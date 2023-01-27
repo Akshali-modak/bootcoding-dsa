@@ -1,7 +1,6 @@
 package leetcode.quetions;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class SumOfUniqueElements {
     public static void main(String[] args) {
