@@ -2,7 +2,7 @@ package leetcode.quetions.array;
 
 public class DuplicateInArray {
     public static void main(String[] args) {
-        int[] num = {1,2,4,7,1,9,4,6,9,2};
+        int[] num = {1,2,4,7,1,9,4,6,9,2,9,11,11};
         printDuplicate(num);
     }
 
