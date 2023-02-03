@@ -2,7 +2,7 @@ package Recursion;
 
 public class StringRevers {
     public static void main(String[] args) {
-       String str = "abcd";
+       String str = "pavan";
        printRev(str,str.length()-1);
     }
     public static void printRev(String str, int indx){
