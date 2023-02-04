@@ -7,7 +7,6 @@ public class DuplicateArray {
         int a[] = {10, 20, 10, 30, 20, 60};
         //find duplicate elements in an array
 
-
         //<Integer ,Integer> generics
         HashMap <Integer , Integer> store = new HashMap<>();
         for(int i=0;i<a.length;i++){
