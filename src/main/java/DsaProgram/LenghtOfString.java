@@ -7,9 +7,8 @@ public class LenghtOfString {
   lengthOfLastWord(" Hello world");
     }
     public static int lengthOfLastWord(String inputString) {
-
         String[] words = inputString.split(" ");
-        int i = words.length - 1;
+        int i = words.length-1;
         System.out.println(words[i]);
         String word = words[i];
         int length = word.length();
