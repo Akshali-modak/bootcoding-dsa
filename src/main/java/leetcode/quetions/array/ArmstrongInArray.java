@@ -17,7 +17,7 @@ public class ArmstrongInArray {
             findingArmstrongInArray(numbers);
 }
 
-    private static void findingArmstrongInArray(int[] numbers) {
+     private static void findingArmstrongInArray(int[] numbers) {
         System.out.println("Armstrong");
         for (int i = 0; i < numbers.length;i++){
             int temp = numbers[i];
