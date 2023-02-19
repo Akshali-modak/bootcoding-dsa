@@ -9,5 +9,7 @@ public class NoBitMask {
 
         int newNumber = notBitMask & n;
         System.out.println(newNumber);
+
+
     }
 }
