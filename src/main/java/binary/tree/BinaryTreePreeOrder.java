@@ -1,5 +1,6 @@
 package binary.tree;
 
+import static binary.tree.BinaryTreePreeOrder.BinaryTree.inOrder;
 import static binary.tree.BinaryTreePreeOrder.BinaryTree.preOrderTree;
 
 public class BinaryTreePreeOrder {
@@ -7,7 +8,8 @@ public class BinaryTreePreeOrder {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
-        preOrderTree(root);
+        inOrder(root);
+//        preOrderTree(root);
 //        System.out.println(root.data);
 
     }
@@ -36,9 +38,6 @@ public class BinaryTreePreeOrder {
         }
 
 
-
-
-
         public static void preOrderTree(Node root){
             if (root == null){
                 return;
@@ -46,6 +45,15 @@ public class BinaryTreePreeOrder {
             System.out.println(root.data+" ");
             preOrderTree(root.left);
             preOrderTree(root.right);
+        }
+
+        public static void inOrder(Node root){
+            if (root == null){
+                return;
+            }
+            inOrder(root.left);
+            System.out.println(root.data+" ");
+            inOrder(root.right);
         }
     }
 }
