@@ -5,7 +5,7 @@ import static java.lang.Math.min;
 
 public class GCD {
     public static void main(String[] args) {
-      int  nums[] = {2,5,6,9,10};
+      int  nums[] = {2,5,8,9,1};
       int gcd = findGCD(nums);
         System.out.println(gcd);
     }
