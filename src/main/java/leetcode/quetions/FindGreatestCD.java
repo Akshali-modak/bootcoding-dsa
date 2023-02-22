@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class FindGreatestCD {
     public static void main(String[] args) {
-       int  nums[] = {2,5,6,9,10};
+       int  nums[] = {2,3,6,9,10};
         System.out.println(findGCD(nums));
     }
     public static int findGCD(int[] nums) {
