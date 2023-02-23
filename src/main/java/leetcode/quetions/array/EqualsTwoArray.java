@@ -2,7 +2,7 @@ package leetcode.quetions.array;
 
 public class EqualsTwoArray {
     public static void main(String[] args) {
-     int[] array1 = {3,4,7,8,2};
+     int[] array1 = {3,4,5,8,2};
      int[] array2 = {3,4,7,8,2};
         boolean twoArray = returnEqualsArray(array1, array2);
         System.out.println(twoArray);
