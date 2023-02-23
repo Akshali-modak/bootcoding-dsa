@@ -2,7 +2,7 @@ package leetcode.quetions.array;
 
 public class RemoveDuplicateValue {
     public static void main(String[] args) {
-        int[] array = {1,3,3,2,3,4,5,5};
+        int[] array = {1,2,2,3,4,5,5};
         int[] temp = new int[array.length];
         int j=0;
         for (int i=0;i<array.length-1;i++){
