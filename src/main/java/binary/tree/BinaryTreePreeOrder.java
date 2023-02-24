@@ -40,8 +40,6 @@ public class BinaryTreePreeOrder {
             newNode.right = buildTree(nodes);
             return newNode;
         }
-
-
         public static void preOrderTree(Node root){
             if (root == null){
                 return;
