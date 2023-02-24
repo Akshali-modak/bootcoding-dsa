@@ -10,7 +10,7 @@ public class BinaryTreePreeOrder {
 //        postOrder(root);
 //        System.out.println(sumOfNodes(root));
         System.out.println(heightOfTree(root));
-//        System.out.println( countOfNodes(root));
+        System.out.println( countOfNodes(root));
 
 //        inOrder(root);
 //        preOrderTree(root);
