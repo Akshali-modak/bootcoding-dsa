@@ -8,8 +8,8 @@ public class BinaryTreePreeOrder {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
 //        postOrder(root);
-        System.out.println(sumOfNodes(root));
-        System.out.println(heightOfTree(root));
+//        System.out.println(sumOfNodes(root));
+//        System.out.println(heightOfTree(root));
         System.out.println( countOfNodes(root));
 
 //        inOrder(root);
