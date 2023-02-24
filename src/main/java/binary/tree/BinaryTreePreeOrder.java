@@ -8,7 +8,8 @@ public class BinaryTreePreeOrder {
         BinaryTree tree = new BinaryTree();
         Node root = tree.buildTree(nodes);
 //        postOrder(root);
-        System.out.println(sumOfNodes(root));
+//        System.out.println(sumOfNodes(root));
+        System.out.println(heightOfTree(root));
 //        System.out.println( countOfNodes(root));
 
 //        inOrder(root);
@@ -74,6 +75,15 @@ public class BinaryTreePreeOrder {
             int rightSum = sumOfNodes(root.right);
 
             return leftSum + rightSum + root.data;
+        }
+        public static int heightOfTree(Node root){
+            if (root == null){
+                return 0;
+            }
+            int leftHeight = heightOfTree(root.left);
+            int rightHeight = heightOfTree(root.right);
+            int treeHeight = Math.max(leftHeight,rightHeight)+1;
+            return treeHeight;
         }
 
         public static void postOrder(Node root){
