@@ -9,7 +9,7 @@ public class Insert {
      }
      inOrder(root);
         System.out.println( );
-        if (search(root,6)){
+        if (search(root,3)){
             System.out.println("Found");
         }
         else {
