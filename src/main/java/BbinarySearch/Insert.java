@@ -9,6 +9,13 @@ public class Insert {
      }
      inOrder(root);
         System.out.println( );
+        if (search(root,6)){
+            System.out.println("Found");
+        }
+        else {
+            System.out.println("Not found");
+        }
+
     }
     static class Node{
         int data;
@@ -16,6 +23,7 @@ public class Insert {
         Node right;
 
         public Node(int data) {
+
             this.data = data;
         }
     }
@@ -41,4 +49,19 @@ public class Insert {
         System.out.print(root.data+" ");
         inOrder(root.right);
     }
+    public static boolean search(Node root, int key){
+        if (root == null){
+            return false;
+        }
+        if (root.data > key){
+            //left subtree
+            return search(root.left,key);
+        } else if (root.data == key) {
+            return true;
+        }
+        else {
+            return search(root.right,key);
+        }
+    }
+
 }
