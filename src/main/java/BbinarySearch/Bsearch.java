@@ -21,7 +21,6 @@ public class Bsearch {
         else {
             return binarySearch(a,x,left,mid-1);
         }
-
     }
 
 }
