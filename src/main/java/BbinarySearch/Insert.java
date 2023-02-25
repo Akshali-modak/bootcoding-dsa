@@ -2,7 +2,7 @@ package BbinarySearch;
 
 public class Insert {
     public static void main(String[] args) {
-     int[] value = {5,1,3,2,4,7};
+     int[] value = {5,1,3,2,4,8};
      Node root = null;
      for (int i=0;i<value.length;i++){
          root=insert(root,value[i]);
