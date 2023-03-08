@@ -4,10 +4,13 @@ public class MergeTwoArray {
     public static void main(String[] args) {
         int[] a1 = {2,4,5,6,7};
         int[] a2 = {3,4,1,0,4};
-        mergeTwoArrray(a1,a2);
+        int[] merge = mergeTwoArray(a1, a2);
+        for (int i=0;i<merge.length;i++){
+            System.out.println(merge[i]+" ");
+        }
     }
 
-    private static void mergeTwoArrray(int[] a1, int[] a2) {
+    private static int[] mergeTwoArray(int[] a1, int[] a2) {
         int len1 = a1.length;
         int len2 = a2.length;
         int[] result = new int[len1+len2];
@@ -27,5 +30,6 @@ public class MergeTwoArray {
         while (j < len2){
             result [k++]= a2[j++];
         }
+        return result;
     }
 }
