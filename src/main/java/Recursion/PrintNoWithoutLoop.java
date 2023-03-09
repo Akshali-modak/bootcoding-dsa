@@ -7,9 +7,8 @@ public class PrintNoWithoutLoop {
     public static void printNumber(int num){
         if (num <= 100){
             System.out.println(num);
-            num++;
+            num++; // increase 1
             printNumber(num);
-
         }
     }
 }
