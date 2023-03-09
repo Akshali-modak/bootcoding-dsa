@@ -9,6 +9,7 @@ public class PrintNoWithoutLoop {
             System.out.println(num);
             num++;
             printNumber(num);
+
         }
     }
 }
