@@ -14,12 +14,11 @@ public class GdDC {
         int lg = nums[nums.length-1];
         int result = 0;
 
-        for(int i = 1; i<=lg;i++){
-            if(sm%i == 0 && lg%i == 0){
+        for(int i = 1; i <= lg;i++){
+            if(sm % i == 0 && lg % i == 0){
                 result = i;
             }
         }
         return result;
-
     }
 }
