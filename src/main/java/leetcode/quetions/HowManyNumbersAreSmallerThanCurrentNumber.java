@@ -1,6 +1,6 @@
 package leetcode.quetions;
 
-public class HowManyNumbersAreSmallerThantheCurrentNumber {
+public class HowManyNumbersAreSmallerThanCurrentNumber {
     public static void main(String[] args) {
         int [] nums={6,5,4,8};
         int[] res = smallerNumbersThanCurrent(nums);
